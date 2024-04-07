@@ -1,0 +1,20 @@
+.item {
+    margin: auto;
+    padding: auto;
+    width: 300px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+    
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+.descr {
+    text-align: center;
+}

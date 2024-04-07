@@ -1,0 +1,8 @@
+.items {
+    padding-top: 20px;
+    display: flex;
+}
+
+app-item {
+    flex: 1 1 auto
+}
