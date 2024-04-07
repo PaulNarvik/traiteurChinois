@@ -20,6 +20,13 @@
         "type": "Dessert",
         "price": 6,
         "imageURL": "https://raw.githubusercontent.com/paulnarvik/traiteurChinois/master/src/assets/boules-coco.jpg"
-    }
+    },
+    {
+      "id": 4,
+      "name": "Saké",
+      "type": "Boisson",
+      "price": 8,
+      "imageURL": "https://raw.githubusercontent.com/paulnarvik/traiteurChinois/master/src/assets/sake.jpg"
+  }
   ]
 }
