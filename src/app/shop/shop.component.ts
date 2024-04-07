@@ -22,8 +22,8 @@ export class ShopComponent {
   menuService: MenuService = inject(MenuService);
 
   constructor() {
-    this.menuService.getMenu().then((menu: Item[]) => {
-      this.menu = menu;
+    this.menuService.getMenu().then((menu) => {
+      this.menu = menu.items;
     });
   }
 }

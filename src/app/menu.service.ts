@@ -5,11 +5,11 @@ import { Item } from './item';
   providedIn: 'root'
 })
 export class MenuService {
-  url = "http://localhost:3000/items"
+  url = "https://raw.githubusercontent.com/paulnarvik/traiteurChinois/master/db.json"
 
-  async getMenu(): Promise<Item[]> {
+  async getMenu() {
     const data = await fetch(this.url);
-    return await data.json() ?? [];
+    return await data.json();
   }
 
   constructor() { }
