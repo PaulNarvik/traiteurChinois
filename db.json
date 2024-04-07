@@ -4,13 +4,15 @@
       "id": 0,
       "name": "Rouleaux de printemps",
       "type": "Entrée",
-      "price": 10
+      "price": 10,
+      "imageURL": "https://raw.githubusercontent.com/paulnarvik/traiteurChinois/master/src/assets/rouleaux-de-printemps.jpg"
     },
     {
         "id": 1,
         "name": "Maki",
         "type": "Plat",
-        "price": 11
+        "price": 11,
+        "imageURL": "https://raw.githubusercontent.com/paulnarvik/traiteurChinois/master/src/assets/maki.jpg"
       }
   ]
 }
