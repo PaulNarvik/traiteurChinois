@@ -13,6 +13,13 @@
         "type": "Plat",
         "price": 11,
         "imageURL": "https://raw.githubusercontent.com/paulnarvik/traiteurChinois/master/src/assets/maki.jpg"
-      }
+    },
+    {
+        "id": 3,
+        "name": "Boules de coco",
+        "type": "Dessert",
+        "price": 6,
+        "imageURL": "https://raw.githubusercontent.com/paulnarvik/traiteurChinois/master/src/assets/boules-coco.jpg"
+    }
   ]
 }
