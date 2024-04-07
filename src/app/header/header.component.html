@@ -1,9 +1,16 @@
 <main>
     <h1>Traiteur Chinois</h1>
     
+    <div class="hamburger" (click)="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
     <nav>
-        <a [routerLink]="['/home']" [routerLinkActive]="['active']">Accueil</a>
-        <a [routerLink]="['/shop']" [routerLinkActive]="['active']">Boutique</a>
-        <a [routerLink]="['/about']" [routerLinkActive]="['active']">À propos</a>
+        <a class="nav" [routerLink]="['/home']" [routerLinkActive]="['current']">Accueil</a>
+        <a class="nav" [routerLink]="['/shop']" [routerLinkActive]="['current']">Boutique</a>
+        <a class="nav" [routerLink]="['/about']" [routerLinkActive]="['current']">À propos</a>
+        
     </nav>
 </main>

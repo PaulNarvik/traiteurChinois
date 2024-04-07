@@ -11,5 +11,16 @@ import { RouterModule } from '@angular/router';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  
+
+  toggleMenu() {
+    var hamburger = document.querySelector(".hamburger");
+    hamburger?.classList.toggle("active");
+
+    var nav = document.querySelectorAll(".nav");
+    nav.forEach((elem) => {
+      elem?.classList.toggle("active");
+    });
+  }
 }
+
+

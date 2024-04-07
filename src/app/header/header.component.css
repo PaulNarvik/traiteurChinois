@@ -1,3 +1,25 @@
+/* Responsive */
+
+@media (max-width: 600px) {
+    .hamburger {
+        display: block;
+    }
+    .nav {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .hamburger {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+}
+
+/* Title */
+
 main {
     background-color: rgb(61, 114, 211);
     display: flex;
@@ -9,6 +31,31 @@ h1 {
     color: white;
     padding-left: 10px;
 }
+
+/* Hamburger Menu */
+
+.hamburger span {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 6px auto;
+    background-color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+  
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+  
+.hamburger.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Navigation buttons */
 
 nav {
     display: flex;
@@ -28,6 +75,10 @@ nav:last-child {
     padding-right: 20px;
 }
 
-.active {
+.current {
     text-decoration: underline;
+}
+
+.nav.active {
+    display: block;
 }
