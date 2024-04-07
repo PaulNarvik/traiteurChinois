@@ -16,10 +16,8 @@ export class HeaderComponent {
     var hamburger = document.querySelector(".hamburger");
     hamburger?.classList.toggle("active");
 
-    var nav = document.querySelectorAll(".nav");
-    nav.forEach((elem) => {
-      elem?.classList.toggle("active");
-    });
+    var nav = document.querySelector(".nav");
+    nav?.parentElement?.classList.toggle("active");
   }
 }
 
