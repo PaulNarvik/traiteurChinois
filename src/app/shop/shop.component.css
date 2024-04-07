@@ -1,8 +1,12 @@
 .items {
     padding-top: 20px;
+    padding: 20px;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 app-item {
-    flex: 1 1 auto
+    flex: none
 }
